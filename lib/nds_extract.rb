@@ -28,8 +28,8 @@ def list_of_directors(source)
   # Write this implementation
   new_array = []
   i = 0
-  while i < soure.length do
-    stooges = soure[i][:name]
+  while i < source.length do
+    stooges = source[i][:name]
     new_array << stooges
   end
   new_array
