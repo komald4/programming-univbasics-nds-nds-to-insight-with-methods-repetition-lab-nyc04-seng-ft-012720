@@ -25,15 +25,16 @@ def gross_for_director(d)
 end
 
 def list_of_directors(source)
-  # Write this implementation
-  new_array = []
-  i = 0
-  while i < source.length do
-    stooges = source[i][:name]
-    new_array << stooges
-  end
-  new_array
-end
+  directors =[]
+  	  director_index = 0
+    while director_index < source.size do
+         #list_of_directors= source[director_index]
+        # directors += [list_of_directors[:name]]
+         directors << source[director_index][:name]
+         director_index += 1
+          end
+        directors
+       end
 
 def total_gross(source)
   # Write this implementation
