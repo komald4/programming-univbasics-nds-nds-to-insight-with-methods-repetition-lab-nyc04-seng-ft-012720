@@ -26,6 +26,12 @@ end
 
 def list_of_directors(source)
   # Write this implementation
+  new_array = []
+  i = 0
+  while i < soure.length do
+    stooges = soure[i][:name]
+    new_array << stooges
+  end
 end
 
 def total_gross(source)
