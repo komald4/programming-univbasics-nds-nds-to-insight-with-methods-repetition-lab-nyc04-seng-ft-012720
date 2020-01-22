@@ -32,6 +32,7 @@ def list_of_directors(source)
     stooges = soure[i][:name]
     new_array << stooges
   end
+  new_array
 end
 
 def total_gross(source)
